@@ -1,0 +1,30 @@
+<?php
+$str1="Hello world! hello India";
+$str2="Hi kolkata";
+echo $str1;
+echo "<br>";
+echo ucfirst($str1);
+echo "<br>";
+echo lcfirst($str1);
+echo "<br>";
+echo ucwords($str1);
+echo "<br>";
+echo strrev($str1);
+echo "<br>";
+echo str_replace("world", "class", $str1);
+echo "<br>";
+echo strstr($str1, "good");
+echo "<br>";
+echo stristr($str1, "wORld");
+echo "<br>";
+echo strpos($str1, "world");
+echo "<br>";
+echo stripos($str1, "wORld");
+echo "<br>";
+echo strrpos($str1, "world");
+echo "<br>";
+echo strripos($str1, "woRLd");
+echo "<br>";
+$str3="passwprd@007";
+echo md5($str3);
+?>
